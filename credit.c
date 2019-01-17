@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <cs50.h>
 
 int main(void)
 {
@@ -9,11 +8,13 @@ int main(void)
     long number, a, b;
     int i, j;
 
-    do
-    {
-        number = get_long_long("Number: ");
+    do{
+    printf("Number: ");
+    scanf("%s", buffer);
+        
+        if ()
     }
-    while (number < 0);
+    while((sscanf(buffer,"%ld", &num) != 1) || (num < 0));
 
     // Taking the sum of the numbers which are not multiplied by 2.
     for (a = number, i = 0; a > 0; a /= 100)
