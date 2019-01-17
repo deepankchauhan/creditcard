@@ -9,6 +9,7 @@ int main(void)
     long number, a, b;
     int i, j;
 
+    // Takes the input which is the credit card number.
     do
     {
         number = get_long_long("Number: ");
