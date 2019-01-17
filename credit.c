@@ -53,7 +53,11 @@ int main(void)
         {
             printf("VISA\n");
         }
-        else
+        else if (number > 6000000000000000 && number < 7000000000000000)
+        {
+            printf("RUPAY\n");
+        }
+        else 
         {
             printf("INVALID\n");
         }
