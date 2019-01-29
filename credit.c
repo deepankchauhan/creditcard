@@ -67,7 +67,7 @@ do-while
     }
     else
     {
-        // if the user has input an invalid credit card number.
+        // if the user has input an invalid CC number.
         printf("INVALID\n");
     }
 
